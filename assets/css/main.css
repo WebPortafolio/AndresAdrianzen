@@ -1225,7 +1225,7 @@ body.loaded {
 * ===============================
 */
 .hero-section {
-	padding: 200px 0 50px;
+	padding: 200px 0 80px;
 	background: var(--tj-theme-accent-1);
 	position: relative;
 	overflow: hidden;
@@ -2013,8 +2013,8 @@ body.loaded {
 }
 .popup_modal_content .portfolio_story_approach,
 .popup_modal_content .portfolio_description {
-	padding: 0 40px;
-	margin-top: 50px;
+	padding: 40px 40px;
+	margin-top: 10px;
 }
 
 .portfolio_story_approach .portfolio_approach,

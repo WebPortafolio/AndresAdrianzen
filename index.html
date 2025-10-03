@@ -76,9 +76,9 @@
                <div class="header-menu" id="headerMenu">
                   <nav>
                      <ul>
-                        <li><a href="about.html">Sobre Mi</a></li>
-                        <li><a href="services.html">Mis Habilidades</a></li>
-                        <li><a href="portfolio.html">Mi Portafolio</a></li>
+                        <li><a href="#intro">Sobre Mi</a></li>
+                        <li><a href="#skills-section">Mis Habilidades</a></li>
+                        <li><a href="#works-section">Mi Portafolio</a></li>
                      </ul>
                   </nav>
                </div>
@@ -111,9 +111,9 @@
                <div class="header-menu">
                   <nav>
                      <ul>
-                        <li><a href="#home">Sobre Mi</a></li>
+                        <li><a href="#intro">Sobre Mi</a></li>
                         <li><a href="#skills-section">Mis Habilidades</a></li>
-                        <li><a href="">Mi Portafolio</a></li>
+                        <li><a href="#works-section">Mi Portafolio</a></li>
                      </ul>
                   </nav>
                </div>
@@ -190,7 +190,7 @@
                   <div class="section-header text-center">
                      <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">Mis Habilidades</h2>
                      <p class="wow fadeInUp" data-wow-delay=".4s">
-                        Domino After Effects y Premiere Pro, y tengo experiencia en Blender, Photoshop e Illustrator. A lo largo de proyectos universitarios he fortalecido mis habilidades en luminotecnia, liderazgo y trabajo en equipo.
+                        Domino After Effects y Premiere Pro, y tengo experiencia en Blender, Photoshop, Illustrator y Canva. A lo largo de proyectos universitarios he fortalecido mis habilidades en luminotecnia, liderazgo y trabajo en equipo.
                      </p>
                   </div>
                </div>
@@ -201,7 +201,7 @@
                      <div class="skill-item wow fadeInUp" data-wow-delay=".3s">
                         <div class="skill-inner">
                            <div class="icon-box">
-                              <img src="assets/img/icons/skills-1.svg" alt="" />
+                              <img src="assets/img/icons/premiere.svg" alt="" />
                            </div>
                            <div class="number">92%</div>
                         </div>
@@ -210,7 +210,7 @@
                      <div class="skill-item wow fadeInUp" data-wow-delay=".4s">
                         <div class="skill-inner">
                            <div class="icon-box">
-                              <img src="assets/img/icons/skills-2.svg" alt="" />
+                              <img src="assets/img/icons/aftereffects.svg" alt="" />
                            </div>
                            <div class="number">80%</div>
                         </div>
@@ -219,7 +219,7 @@
                      <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
                         <div class="skill-inner">
                            <div class="icon-box">
-                              <img src="assets/img/icons/react.svg" alt="" />
+                              <img src="assets/img/icons/photoshop.svg" alt="" />
                            </div>
                            <div class="number">89%</div>
                         </div>
@@ -228,7 +228,7 @@
                      <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
                         <div class="skill-inner">
                            <div class="icon-box">
-                              <img src="assets/img/icons/react.svg" alt="" />
+                              <img src="assets/img/icons/illustrator.svg" alt="" />
                            </div>
                            <div class="number">89%</div>
                         </div>
@@ -237,13 +237,22 @@
                      <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
                         <div class="skill-inner">
                            <div class="icon-box">
-                              <img src="assets/img/icons/react.svg" alt="" />
+                              <img src="assets/img/icons/blender.svg" alt="" />
                            </div>
                            <div class="number">89%</div>
                         </div>
                         <p>Blender</p>
                      </div>
-                     
+                     <div class="skill-item wow fadeInUp" data-wow-delay=".7s">
+                        <div class="skill-inner">
+                           <div class="icon-box">
+                              <img src="assets/img/icons/canva.svg" alt="" />
+                           </div>
+                           <div class="number">89%</div>
+                        </div>
+                        <p>Canva</p>
+                     </div>
+
                   </div>
                </div>
             </div>
@@ -270,10 +279,8 @@
                <div class="col-md-12">
                   <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
                      <div class="button-group filter-button-group">
-                        <button data-filter="*" class="active">All</button>
-                        <button data-filter=".uxui">UX/UI</button>
-                        <button data-filter=".branding">Branding</button>
-                        <button data-filter=".mobile-app">Apps</button>
+                        <button data-filter="*" class="active">Proyectos Audiovisuales</button>
+                        <button data-filter=".uxui">Proyectos Digitales</button>
                         <div class="active-bg"></div>
                      </div>
                   </div>
@@ -286,13 +293,13 @@
                            <img src="assets/img/portfolio/2.jpg" alt="" />
                         </div>
                         <div class="content-box">
-                           <h3 class="portfolio-title">Deloitte</h3>
-                           <p>Project was about precision and information.</p>
+                           <h3 class="portfolio-title">El Último Caso</h3>
+                           <p>Corto Audiovisual</p>
                            <i class="flaticon-up-right-arrow"></i>
                            <button data-mfp-src="#portfolio-wrapper" class="portfolio-link modal-popup"></button>
                         </div>
                      </div>
-                     <div class="portfolio-item uxui">
+                     <div class="portfolio-item branding">
                         <div class="image-box">
                            <img src="assets/img/portfolio/1.jpg" alt="" />
                         </div>
@@ -334,115 +341,52 @@
 
       <!-- start: Portfolio Popup -->
       <div id="portfolio-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
-         <div class="popup_modal_img">
-            <img src="./assets/img/portfolio/modal-img.jpg" alt="" />
-         </div>
+         
+
+         <!-- start:video -->
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
+            <iframe 
+               src="https://www.youtube.com/embed/_yVLNAVjaf0?si=0NDSf1cLbvU4waqf" 
+               title="YouTube video player"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+               allowfullscreen
+               style="position:absolute; top:0; left:0; width:100%; height:100%;">
+            </iframe>
+            </div>
+
+         <!-- end:video -->
+
          <div class="popup_modal_content">
             <div class="portfolio_info">
-               <div class="portfolio_info_text">
-                  <h2 class="title">DStudio</h2>
-                  <div class="desc">
-                     <p>
-                        They are was greater open above shelter lets itself under appear sixth open gathering made upon
-                        can't own above midst
-                        gathering gathered he one us saying can't divide.
-                     </p>
-                  </div>
-                  <a href="#" class="btn tj-btn-primary">live preview <i class="fal fa-arrow-right"></i></a>
-               </div>
                <div class="portfolio_info_items">
                   <div class="info_item">
-                     <div class="key">Category</div>
-                     <div class="value">Web Design</div>
+                     <div class="key">Categoría</div>
+                     <div class="value">Corto Audiovisual</div>
                   </div>
                   <div class="info_item">
-                     <div class="key">Client</div>
-                     <div class="value">Artboard Studio</div>
-                  </div>
-                  <div class="info_item">
-                     <div class="key">Start Date</div>
-                     <div class="value">August 20, 2023</div>
-                  </div>
-                  <div class="info_item">
-                     <div class="key">Designer</div>
-                     <div class="value"><a href="#">ThemeJunction</a></div>
+                     <div class="key">Cargo</div>
+                     <div class="value">Luminotécnico</div>
                   </div>
                </div>
             </div>
-            <div class="portfolio_gallery owl-carousel">
-               <div class="gallery_item">
-                  <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt="" />
-               </div>
-               <div class="gallery_item">
-                  <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt="" />
-               </div>
-               <div class="gallery_item">
-                  <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt="" />
-               </div>
-               <div class="gallery_item">
-                  <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt="" />
-               </div>
-            </div>
+           
             <div class="portfolio_description">
-               <h2 class="title">Project Description</h2>
+               <h2 class="title">El Último Caso</h2>
                <div class="desc">
                   <p>
-                     The goal is there are many variations of passages of Lorem Ipsum available, but the majority have
-                     suffered alteration in some
-                     form, by injected humour, or randomised words which don't look even slightly believable.
+                     "El último caso" es un cortometraje de suspenso realizado como proyecto grupal en los últimos ciclos de la carrera de Comunicación Audiovisual. El proceso de preproducción y postproducción se desarrolló con un nivel de exigencia similar al de un trabajo profesional, lo que permitió adquirir experiencia cercana a la dinámica de la industria.
                   </p>
-
                   <p>
-                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                     alteration in some form, by
-                     injected humour, or randomised words which don't look even slightly believable. If you are going to
-                     use a passage of Lorem
-                     Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                     La historia retrata un contexto actual en el que las autoridades se ven desbordadas frente al aumento de la inseguridad en el país. Inspirado en el cine policial estadounidense y en el interés que generan las narrativas sobre asesinos seriales, el corto combina suspenso y acción para construir una atmósfera intensa y atrapante.
+                  </p>
+                  <p>
+                     Mi rol fue el de luminotécnico, asegurando que cada escena transmitiera la atmósfera adecuada para potenciar la tensión narrativa.
+
                   </p>
                </div>
             </div>
-            <div class="portfolio_story_approach">
-               <div class="portfolio_story">
-                  <div class="story_title">
-                     <h4 class="title">The story</h4>
-                  </div>
-                  <div class="story_content">
-                     <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by
-                        injected humour, or randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem
-                        Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There
-                        are many variations of
-                        passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
-                        injected humour, or
-                        randomised words which don't look even slightly believable. If you are going to use a passage of
-                        Lorem Ipsum, you need to
-                        be sure there isn't anything embarrassing hidden in the middle of text.
-                     </p>
-                  </div>
-               </div>
-               <div class="portfolio_approach">
-                  <div class="approach_title">
-                     <h4 class="title">OUR APPROACH</h4>
-                  </div>
-                  <div class="approach_content">
-                     <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by
-                        injected humour, or randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem
-                        Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There
-                        are many variations of
-                        passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
-                        injected humour, or
-                        randomised words which don't look even slightly believable. If you are going to use a passage of
-                        Lorem Ipsum, you need to
-                        be sure there isn't anything embarrassing hidden in the middle of text.
-                     </p>
-                  </div>
-               </div>
-            </div>
+            
             <div class="portfolio_navigation">
                <div class="navigation_item prev-project">
                   <a href="#" class="project">
@@ -467,6 +411,7 @@
       </div>
       <!-- end: Portfolio Popup -->
 
+      
    <!-- FOOTER AREA START -->
    <footer class="tj-footer-area">
       <div class="container">
@@ -478,9 +423,9 @@
                <div class="footer-menu">
                   <nav>
                      <ul>
-                        <li><a href="about.html">Sobre Mi</a></li>
-                        <li><a href="services.html">Mis Habilidades</a></li>
-                        <li><a href="portfolio.html">Mi Portafolio</a></li>
+                       <li><a href="#intro">Sobre Mi</a></li>
+                        <li><a href="#skills-section">Mis Habilidades</a></li>
+                        <li><a href="#works-section">Mi Portafolio</a></li>
                      </ul>
                   </nav>
                </div>
