@@ -837,6 +837,9 @@ Description: Gerold - Personal Portfolio HTML5 Template
 			removalDelay: 300,
 			mainClass: "popup-mfp",
 		});
+
+		// Prev/Next navigation inside portfolio popups is handled by an inline script
+		// injected in index.html to provide a dynamic, robust behavior.
 	});
 
 	$(window).on("load", function () {
