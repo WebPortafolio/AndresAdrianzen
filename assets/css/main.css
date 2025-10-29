@@ -59,15 +59,15 @@ Description: Gerold - Personal Portfolio HTML5 Template
 	--tj-h3-black: #0b0410;
 	--tj-heading-primary: #102039;
 	--tj-heading-secondary: #ea1826;
-	--tj-theme-primary: #8750f7;
+	--tj-theme-primary: #4e69ff;
 	--tj-theme-primary-1: #2400ff;
 	--tj-theme-primary-2: #9b8dff;
 	--tj-theme-primary-3: #4654f9;
 	--tj-theme-h3-primary-1: #814cec;
 	--tj-theme-h4-primary-1: #240F31;
-	--tj-theme-secondary: #2a1454;
-	--tj-theme-accent-1: #0f0715;
-	--tj-theme-accent-2: #140c1c;
+	--tj-theme-secondary: #0d1139;
+	--tj-theme-accent-1: #070a15;
+    --tj-theme-accent-2: #111329;
 	--tj-grey-1: #747779;
 	--tj-grey-2: #d9d9d9;
 	--tj-grey-3: #dddddd;
@@ -528,6 +528,20 @@ a h6:hover {
 	background: var(--tj-theme-primary);
 	opacity: 1;
 }
+
+.custom-carousel .owl-nav
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.custom-carousel .owl-nav button
+{
+	position: initial !important;
+}
+
 .tj-nice-select {
 	float: none;
 	width: 100%;
@@ -826,7 +840,7 @@ body.loaded {
 }
 
 .tj-header-area .logo-box {
-	max-width: 60px;
+	max-width: 180px;
 	width: 100%;
 	margin-right: 35px;
 }
@@ -3279,7 +3293,7 @@ input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
 	padding: 50px 0 20px;
 }
 .footer-logo-box {
-	max-width: 75px;
+	max-width: 180px;
 	width: 100%;
 	margin: 0 auto 35px;
 }
