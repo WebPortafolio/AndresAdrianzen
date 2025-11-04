@@ -558,6 +558,7 @@ a h6:hover {
 	flex-direction: row;
 	justify-content: center;
 	gap: 10px;
+	margin-top: 20px;
 }
 
 .custom-carousel .owl-nav button {
@@ -1752,9 +1753,9 @@ body.loaded {
 }
 
 @media only screen and (max-width: 767px) {
-    .portfolio-filter .button-group button {
-        padding: 10px 15px !important;
-    }
+	.portfolio-filter .button-group button {
+		padding: 10px 15px !important;
+	}
 }
 
 .portfolio-filter .button-group {
@@ -1931,10 +1932,11 @@ body.loaded {
 	margin: 0 auto;
 	position: relative;
 }
+
 @media only screen and (max-width: 767px) {
-    .popup_content_area {
-        max-width: 90vw !important;
-    }
+	.popup_content_area {
+		max-width: 90vw !important;
+	}
 }
 
 
@@ -4160,3 +4162,58 @@ body.absolute_header .breadcrumb_area {
 }
 
 /* END: Modal CSS */
+
+
+.tj-header-area .menu-bar button span {
+	width: 18px
+}
+
+.tj-header-area .menu-bar button span:nth-child(2) {
+	width: 24px;
+}
+
+.tj-header-area .menu-bar button span:nth-child(3) {
+	width: 15px;
+}
+
+.tj-header-area .menu-bar {
+	margin-left: 10px;
+}
+
+.tj-header-area .menu-bar.menu-bar-toggeled button span:nth-child(4) {
+	height: 24px !important;
+	top: 0 !important;
+}
+
+.popup-mfp .mfp-container {
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+	.tj-header-area .container {
+		max-width: initial !important;
+	}
+
+	.portfolio_navigation {
+		flex-direction: row !important;
+		flex-wrap: nowrap !important;
+	}
+
+	.nav_project .label {
+		font-size: 12px !important;
+	}
+
+	.nav_project .title {
+		font-size: 16px !important;
+		max-width: 120px;
+		overflow: hiden;
+
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.portfolio_navigation .navigation_item .project {
+		gap: 8px;
+	}
+}
